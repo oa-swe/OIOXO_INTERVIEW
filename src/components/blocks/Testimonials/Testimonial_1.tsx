@@ -12,7 +12,9 @@ export function Testimonial1({ config }: { config: BlockConfig }) {
           className="card rounded-3 h-100 p-3 shadow-sm"
           style={{
             backgroundColor: card?.[cardIndex]?.background_color ?? "white",
-            boxShadow: `0 0.125rem 0.25rem ${card?.box_shadow_color ?? "rgba(0, 0, 0, 0.1)"}`,
+            boxShadow: `0 0.125rem 0.25rem ${
+              card?.box_shadow_color ?? "rgba(0, 0, 0, 0.1)"
+            }`,
           }}
         >
           <div className="card-body d-flex flex-column">
