@@ -1,4 +1,4 @@
-import { BlockConfig } from "@/components/primaryBlocks/types/Config";
+import { BlockConfig } from "@/components/primaryWebsite/types/Config";
 import { BlockType } from "./types/Blocks";
 import { Signup1 } from "./Signup/Signup_1";
 import { Footer1 } from "./Footer/Footer1";

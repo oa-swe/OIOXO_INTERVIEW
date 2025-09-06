@@ -1,5 +1,5 @@
-import { ElementType } from "@/components/primaryBlocks/types/Html";
-import { BlockConfig } from "@/components/primaryBlocks/types/Config";
+import { ElementType } from "@/components/primaryWebsite/types/Html";
+import { BlockConfig } from "@/components/primaryWebsite/types/Config";
 import { PossiblePages } from "../types/Pages";
 
 export const video_2_config: BlockConfig = {

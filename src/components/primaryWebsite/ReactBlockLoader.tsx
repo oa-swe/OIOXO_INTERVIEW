@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { BlockGenerator } from "@/components/primaryBlocks/BlockGenerator";
+import { BlockGenerator } from "@/components/primaryWebsite/BlockGenerator";
 import { BlockConfig } from "./types/Config";
 import { BlockType } from "./types/Blocks";
 // import parse from "html-react-parser";
