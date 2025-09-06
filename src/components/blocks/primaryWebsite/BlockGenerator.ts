@@ -1,4 +1,4 @@
-import { BlockConfig } from "@/components/primaryWebsite/types/Config";
+import { BlockConfig } from "@/components/blocks/primaryWebsite/types/Config";
 import { BlockHtmlGenerator } from "./BlockHtmlGenerator";
 import { BlockType } from "./types/Blocks";
 import { ReactNode } from "react";
