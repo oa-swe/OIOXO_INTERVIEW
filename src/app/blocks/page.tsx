@@ -11,6 +11,10 @@ import { Testimonial1 } from "@/components/blocks/Testimonials/Testimonial_1";
 import { testimonial_config } from "@/components/blocks/Testimonials/testimonial_1_config";
 import { WorkWithUs2 } from "@/components/blocks/WorkWithUs/WorkWithUs_2";
 import { workwithus_2_config } from "@/components/blocks/WorkWithUs/WorkWithUs_2_config";
+import { Footer1 } from "@/components/blocks/Footer/Footer1";
+import { footer_config } from "@/components/blocks/Footer/footer_1_config";
+import { MeetOurTeam2 } from "@/components/blocks/MeetOurTeam/MeetOurTeam_2";
+import { meetourteam_2_config } from "@/components/blocks/MeetOurTeam/MeetOurTeam_2_config";
 /**
  *
  * برای کانفیگ ها ، کانفیگ تستیمونیالز را به عنوان نمونه تمیز در نظر بگیرید
@@ -24,6 +28,8 @@ export default function SignupPage() {
       <Testimonial1 config={testimonial_config} />
       <WorkWithUs2 config={workwithus_2_config} />
       <AboutUs2 config={aboutus_2_config} />
+      <MeetOurTeam2 config={meetourteam_2_config} />
+      <Footer1 config={footer_config} />
     </div>
   );
 }
