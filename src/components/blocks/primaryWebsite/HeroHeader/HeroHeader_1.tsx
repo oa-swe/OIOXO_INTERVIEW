@@ -56,6 +56,10 @@ export function HeroHeader1({ config }: { config: BlockConfig }) {
           />
 
           <button
+            id="sam_btn"
+            style={{
+              background: "red",
+            }}
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
